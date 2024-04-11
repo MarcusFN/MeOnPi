@@ -6,4 +6,17 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     document.body.insertBefore(switchThemeBtn, document.body.firstChild);
+
+    var img = document.createElement("img");
+    img.src = 'img/CVImage1.jpeg';
+    img.id ='CVImage1';
+    img.addEventListener('mouseover', function (){
+       img.style.opacity = '0.8';
+    });
+    img.addEventListener('mouseout',function (){
+        img.style.opacity = '1';
+    });
+    var header = document.getElementById('appendPicture');
+    header.appendChild(img);
 });
+

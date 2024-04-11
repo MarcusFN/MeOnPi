@@ -48,3 +48,9 @@ li {
 .dark-theme a {
     color: #4da3ff;
 }
+
+#CVImage1 {
+    width: 200px;
+    height: auto;
+    filter: grayscale(100%);
+}

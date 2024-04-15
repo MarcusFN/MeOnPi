@@ -39,4 +39,4 @@ Bidrag til dette projekt er velkomne! Hvis du har forslag til forbedringer, tilf
 
 ## Licens
 
-Dette projekt er licenseret under [MIT-licensen](LICENSE).
+Dette projekt er licenseret under [MIT-licensen](LICENSE.md).

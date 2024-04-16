@@ -1,5 +1,5 @@
-##Colorcodes used:
-###Index Page
+## Colorcodes used:
+### Index Page
 rgba(40,42,53,255)
 rgba(221,221,221,255)
 rgba(248,244,152,255)

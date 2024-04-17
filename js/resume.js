@@ -1,20 +1,4 @@
 
-document.addEventListener('DOMContentLoaded', function() {
-    setupThemeSwitcher();
-    setupImageOpacity();
-    setupPlayMode();
-    setupReturnButton();
-});
-
-function setupThemeSwitcher() {
-    const switchThemeBtn = document.createElement('button');
-    switchThemeBtn.textContent = 'Change Theme';
-    switchThemeBtn.addEventListener('click', function (){
-        document.body.classList.toggle('dark-theme');
-    });
-    document.body.insertBefore(switchThemeBtn, document.body.firstChild);
-}
-
 function setupImageOpacity() {
     const img = new Image();
     img.src = 'img/CVImage1.jpeg';
@@ -77,3 +61,9 @@ function setupReturnButton() {
     document.body.insertBefore(returnbutton, document.body.firstChild);
 }
 
+
+document.addEventListener('DOMContentLoaded', function() {
+    setupImageOpacity();
+    setupPlayMode();
+    setupReturnButton();
+});

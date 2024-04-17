@@ -4,34 +4,9 @@ header {
     margin-bottom: 20px;
     padding: 10px;
     border-radius: 5px;
-
-
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background: linear-gradient(to right, rgb(40, 42, 53), rgba(0, 85, 204, 0.53));
-    background-color: #282a35;
-    color: rgba(245, 245, 245, 0.99);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
-
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
-    font-weight: bold;
-    color: rgba(245, 245, 245, 0.99);
-    letter-spacing: 1px;
-    text-align: center;
-    text-decoration-line: underline;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
-}
-
-h2, h3 {
-    color: #bfb576;
 }
 
 a:hover {
@@ -89,13 +64,15 @@ li {
     color: rgba(245, 245, 245, 0.93);
 }
 
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(245, 245, 245, 0.2);
-    text-align: center;
-    padding: 1px 0;
-    font-size: 14px;
+
+.close {
+    font-size: 30px; /* Juster størrelsen af lukkeknappen */
+    cursor: pointer;
 }
+
+.contact-popup {
+    position: fixed;
+
+}
+
+

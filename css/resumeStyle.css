@@ -1,29 +1,19 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #f5f5f5;
-    color: #333;
-}
+
 
 header, section {
-    background-color: white;
+    background-color: rgba(204, 204, 204, 0); /* Opdateret baggrundsfarve */
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
 }
 
 h1, h2, h3 {
-    color: #007bff;
+    color: #007bff; /* Opdateret overskriftfarve */
 }
 
 a {
-    color: #007bff;
-}
-
-a:hover {
-    text-decoration: none;
+    color: #007bff; /* Opdateret linkfarve */
 }
 
 ul {
@@ -35,27 +25,13 @@ li {
     margin-bottom: 10px;
 }
 
-.dark-theme {
-    background-color: #333;
-    color: #f5f5f5;
-}
-
-.dark-theme header, .dark-theme section {
-    background-color: #444;
-    color: #fff;
-}
-
-.dark-theme a {
-    color: #4da3ff;
-}
-
 #CVImage1 {
     width: 200px;
     height: auto;
     filter: grayscale(100%);
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    border: 2px solid #CCCC;
+    border: 2px solid #cccccc; /* Opdateret kantfarve */
 }
 #CVImage1:hover {
     transform: scale(1.05);
@@ -66,4 +42,5 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
 

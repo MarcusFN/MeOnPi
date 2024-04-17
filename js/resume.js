@@ -1,12 +1,14 @@
+
 document.addEventListener('DOMContentLoaded', function() {
     setupThemeSwitcher();
     setupImageOpacity();
     setupPlayMode();
+    setupReturnButton();
 });
 
 function setupThemeSwitcher() {
     const switchThemeBtn = document.createElement('button');
-    switchThemeBtn.textContent = 'Skift Tema';
+    switchThemeBtn.textContent = 'Change Theme';
     switchThemeBtn.addEventListener('click', function (){
         document.body.classList.toggle('dark-theme');
     });
@@ -35,7 +37,7 @@ function setupPlayMode() {
             startPlayMode();
         }
     });
-    document.body.insertBefore(randomColorsBtn, document.body.firstChild.nextSibling); // Placerer efter Skift Tema-knappen
+    document.body.insertBefore(randomColorsBtn, document.body.firstChild.nextSibling);
 }
 function startPlayMode() {
     applyRandomColors(); // Anvend en gang med det samme
@@ -63,5 +65,15 @@ function applyRandomColors() {
             el.style.backgroundColor = getRandomColor();
         });
     });
+
+}
+
+function setupReturnButton() {
+    const returnbutton = document.createElement("button");
+    returnbutton.textContent = 'Return';
+    returnbutton.addEventListener('click', function (){
+        window.history.back();
+    });
+    document.body.insertBefore(returnbutton, document.body.firstChild);
 }
 

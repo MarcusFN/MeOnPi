@@ -1,3 +1,12 @@
+## Colorcodes used:
+### Index Page
+rgba(40,42,53,255)
+rgba(221,221,221,255)
+rgba(248,244,152,255)
+rgba(53,244,245,255)
+rgba(52,216,225,255)
+rgb(48,125,126)
+
 # MeOnPi Projekt
 
 ## Oversigt
